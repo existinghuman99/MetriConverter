@@ -6,3 +6,4 @@ This is a solo project that I do on my own time. Do not expect scheduled updates
 - A GUI
 - Conversion into a usable library
 - Other conversions (cm to in, mi to km, etc)
+- A settings file
