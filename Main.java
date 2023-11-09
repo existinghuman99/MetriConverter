@@ -8,8 +8,14 @@ public class Main {
         //for the future
         //return output = input/3.28084;
     }
+    static double feetToMeters(double feet) {
+        return feet/3.28084;
+    }
+    static double inchesToCentimeters(double inches) {
+        return inches*2.54;
+    }
     public static void main(String[] args) {
-        converterInteractive();
+        System.out.println(inchesToCentimeters(1));
     }
 }
 
