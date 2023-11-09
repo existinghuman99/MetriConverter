@@ -14,8 +14,11 @@ public class Main {
     static double inchesToCentimeters(double inches) {
         return inches*2.54;
     }
+    static double milesToKilometers(double miles){
+        return miles*1.609344;
+    }
     public static void main(String[] args) {
-        System.out.println(inchesToCentimeters(1));
+        System.out.println(milesToKilometers(1));
     }
 }
 
